@@ -18,11 +18,12 @@
 <body>
 
     <header>
-        <h1>Mi sitio Laravel</h1>
-        <nav>
+        <h1>Hola Mundo esta es mi web jajaja</h1>
+        <>
             <a href="/">Inicio</a>
             <a href="/productos">Productos</a>
             <a href="/contacto">Contacto</a>
+            <a href="/nav">Nosotros</a>
         </nav>
     </header>
 
