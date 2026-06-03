@@ -19,11 +19,11 @@
 
     <header>
         <h1>Hola Mundo esta es mi web jajaja</h1>
-        <>
-            <a href="/">Inicio</a>
-            <a href="/productos">Productos</a>
-            <a href="/contacto">Contacto</a>
-            <a href="/nav">Nosotros</a>
+        <nav>
+            <a href="{{ route('inicio') }}">Inicio</a>
+            <a href="{{ route('productos') }}">Productos</a>
+            <a href="{{ route('contacto') }}">Contacto</a>
+            <a href="{{ route('nosotros') }}">Nosotros</a>
         </nav>
     </header>
 

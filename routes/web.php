@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 // 1. Ruta de Inicio
 Route::get('/', function () {
     return view('inicio');
-});
+})->name('inicio');
 
 // 2. Ruta de Productos (con datos "hardcodeados" en un array)
 Route::get('/productos', function () {
@@ -30,7 +30,7 @@ Route::get('/productos', function () {
     return view('productos', [
         'productos' => $productos,
     ]);
-});
+})->name('productos');
 
 // 3. Ruta de Contacto
 Route::get('/contacto', function () {
@@ -38,8 +38,9 @@ Route::get('/contacto', function () {
     return view('contacto', [
         'email' => $email,
     ]);
-});
+})->name('contacto');
+
 // 4. Ruta de Nosotros
 Route::get('/nosotros', function () {
     return view('nosotros');
-});
+})->name('nosotros');
